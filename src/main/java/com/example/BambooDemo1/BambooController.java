@@ -12,4 +12,9 @@ public class BambooController {
         return "Hello Bamboo...";
     }
 
+    @RequestMapping("/")
+    public String getBamboo(){
+        return "Bamboo url...";
+    }
+
 }
