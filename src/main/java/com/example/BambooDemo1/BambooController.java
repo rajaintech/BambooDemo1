@@ -17,4 +17,9 @@ public class BambooController {
         return "Bamboo url...";
     }
 
+    @RequestMapping("/test")
+    public String getBambooTest(){
+        return "Bamboo url...";
+    }
+
 }
